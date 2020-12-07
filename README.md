@@ -31,25 +31,24 @@ Phara Dorisca (https://github.com/pdorisca), Khulika Rojanakanoksak (https://git
 
 The whole fund structure can be setup with the 7 Solidity contracts:
 
-    `Investors.sol`
+    Investors.sol
 
-    `Investment_Club_join_acc.sol`
+    Investment_Club_join_acc.sol
 
-    `Contract_Ownership.sol` 
+    Contract_Ownership.sol
 
-    `MembersVote.sol`
+    MembersVote.sol
 
-    `SellToken.sol`
+    SellToken.sol
 
-    `Mint.sol`
+    InvestmentMintableToken.sol
 
-    `MemberInfo.sol`
+    MemberInfo.sol
 ---
 
 ## Dependencies:
 ### Security selection
 Dow Jones 30 Index: AXP, AMGN, AAPL, BA, CAT, CSCO, CVX, GS, HD, HON, IBM, INTC, JNJ, KO, JPM, MCD, MMM, MRK, MSFT, NKE, PG, TRV, UNH, CRM, VZ, V, WBA, WMT, DIS, DOW
-### Strategy selection
 
 ### Data for performance tracking
 Use off-chain data from Yahoo finance by running python shell, `TokenPrice.py`. This would allow member to track latest value of his/her investment share in form of an ERC20 fund token. Also, historical return could be shown from 1D to 1M horizon. Member's information and fund token balance also store in form of ERC721 toke
