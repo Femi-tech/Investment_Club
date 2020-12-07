@@ -2,13 +2,13 @@ pragma solidity ^0.5.0;
 
 import "https://github.com/ScJa/ercfund/blob/master/contracts/open-zeppelin/token/ERC20/StandardToken.sol";
 import "https://github.com/Femi-tech/Investment_Club/blob/master/Contracts/3-Contract_Ownership.sol";
+import "https://github.com/Femi-tech/Investment_Club/blob/master/Contracts/4-MembersVote.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Detailed.sol";
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC20/ERC20Mintable.sol";
-import "https://github.com/Femi-tech/Investment_Club/blob/master/Contracts/4-MembersVote.sol";
 
 
-contract InvestmentMintableToken is StandardToken, Contract_Ownership, ERC20, ERC20Detailed, ERC20Mintable, MembersVote {
+contract InvestmentMintableToken is StandardToken, Contract_Ownership, MembersVote, ERC20, ERC20Detailed, ERC20Mintable {
   event Mint(address indexed to, uint256 amount);
   event MintFinished();
 
