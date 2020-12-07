@@ -1,6 +1,7 @@
 # Investment_Club
 
-## The goal of this project is to create an investment club leveraging python and solidity tech stacks for financial automation. 
+![IVMC](Investment-club.jpg)
+The goal of this project is to create an investment club leveraging python and solidity tech stacks for financial automation
 
 ### Project functionality
 Support and track funding of investment club by multiple users
@@ -10,28 +11,36 @@ Account for overall performance of investment club
 Reference investment club rules to allocate capital and confirm transactions efficiently
 Reference investment club rules to disburse funds accurately to members
 
+### Project Structure
+
+The whole fund structure can be setup with the Nine Solidity classes:
+FundOperator.sol 
+FundJointAccount.sol
+ContractOwnership.sol 
+Voting.sol
+Mint.sol
+CrowdSale.sol
+SellToken.sol
+TokenPrice.sol
+MemberInfo.sol 
+
 ## Dependencies:
 ### Security selection
-
+Dow Jones 30 Index: AXP, AMGN, AAPL, BA, CAT, CSCO, CVX, GS, HD, HON, IBM, INTC, JNJ, KO, JPM, MCD, MMM, MRK, MSFT, NKE, PG, TRV, UNH, CRM, VZ, V, WBA, WMT, DIS, DOW
 ### Strategy selection
 
 ### Data for performance tracking
 
-Ruleset to govern allocation of funds
+
 
 ### Qualifications for investment club
 Minimum investment (Onboarding fee, monthly contribution,equal share)
 Close-end fund
 Lock-up period: 6M
-What is the lifecycle on each investment period
-Security/Strategy selection occurs when? How? 
-Security universe? (2nd phase)
-Available strategies? 
 To make members more active, one might need to require each member to submit an investment idea before he/she can put money into the fund.
-Allocation for each strategy-equal. Best investment idea will get an extra fund to invest in, determined by voting, veto. (2nd phase)
-Holding time of selection is what- 1 month rebalancing period.
+Allocation for each strategy-equal. Best investment idea will get an extra fund to invest in, determined by voting, veto.
+Holding time of selection is 1 month rebalancing period.
 Can be based on members’ common investment philosophy
-What is the logic that defines how profits/losses are shared?
 Based on share in the fund x overall return on the fund
 
 
