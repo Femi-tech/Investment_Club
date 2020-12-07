@@ -14,7 +14,7 @@ Reference investment club rules to disburse funds accurately to members
 
 ### Project Structure
 
-The whole fund structure can be setup with the Nine Solidity classes:
+The whole fund structure can be setup with the Nine Solidity contracts:
 FundOperator.sol 
 FundJointAccount.sol
 ContractOwnership.sol 
