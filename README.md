@@ -1,6 +1,7 @@
 # Investment_Club
-Contributors: Phara Dorisca (https://github.com/pdorisca), Khulika Rojanakanoksak (https://github.com/Khulikaroj), Femi Aina (https://github.com/Femi-tech), Ogo Nwanyanwu (https://github.com/Ogo1024)
 ![IVMTC](Images/Investment-club.jpg)
+
+Contributors: Phara Dorisca (https://github.com/pdorisca), Khulika Rojanakanoksak (https://github.com/Khulikaroj), Femi Aina (https://github.com/Femi-tech), Ogo Nwanyanwu (https://github.com/Ogo1024)
 
 #### The goal of this project is to create an investment club leveraging python and solidity tech stacks for financial automation
 
