@@ -1,7 +1,8 @@
 # Investment_Club
 
 ![IVMTC](Images/Investment-club.jpg)
-The goal of this project is to create an investment club leveraging python and solidity tech stacks for financial automation
+
+#### The goal of this project is to create an investment club leveraging python and solidity tech stacks for financial automation
 
 ### Project functionality
 Support and track funding of investment club by multiple users
