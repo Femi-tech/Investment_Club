@@ -13,7 +13,6 @@ Phara Dorisca (https://github.com/pdorisca), Khulika Rojanakanoksak (https://git
 
 ## Project functionality
 
-
 * Support and track funding of investment club by multiple users.
 
 * Track and verify security or strategy selection of each user.
