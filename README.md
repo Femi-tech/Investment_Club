@@ -1,5 +1,5 @@
 # Investment_Club
-
+Contributors: Phara Dorisca (https://github.com/pdorisca), Khulika Rojanakanoksak (https://github.com/Khulikaroj), Femi Aina (https://github.com/Femi-tech), Ogo Nwanyanwu (https://github.com/Ogo1024)
 ![IVMTC](Images/Investment-club.jpg)
 
 #### The goal of this project is to create an investment club leveraging python and solidity tech stacks for financial automation
@@ -31,7 +31,7 @@ Dow Jones 30 Index: AXP, AMGN, AAPL, BA, CAT, CSCO, CVX, GS, HD, HON, IBM, INTC,
 ### Strategy selection
 
 ### Data for performance tracking
-
+Use off-chain data from Yahoo finance by running python shell. This would allow member to track latest value of his/her investment share in form of an ERC20 fund token. Also, historical return could be shown from 1D to 1M horizon. Member's information and fund token balance also store in form of ERC721 toke
 
 
 ### Qualifications for investment club
